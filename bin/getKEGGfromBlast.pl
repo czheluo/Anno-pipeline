@@ -21,8 +21,8 @@ GetOptions( \%opts,"i=s", "format=s","o=s","maxEvalue=f","remote=s","minIdentity
 my $usage = <<"USAGE";
        Program : $0
        Version : $VERSION
-       Contact : quan.guo\@majorbio.com
-       Lastest modify:2013-05-08
+       Contact : meng.luo\@majorbio.com
+       Lastest modify:2019-04-13
        Discription:parse blast to genes databse result and get kegg pathway info and map
        Usage :perl $0 [options]
                 -i*		blastn.out		blast to genes database output,can use wildcard character in bash,like '*_blast.out',but must use '' when using  wildcard character     
