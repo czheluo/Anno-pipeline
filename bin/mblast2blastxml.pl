@@ -2,13 +2,9 @@
 
 use strict;
 use warnings;
-
-
 use Getopt::Long;
 my %opts;
-
 GetOptions( \%opts,"i=s", "o=s","db=s","p=s","h!");
-
 my $usage = <<"USAGE";
        Program : $0
        Version : 1.0
