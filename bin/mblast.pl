@@ -13,8 +13,8 @@ GetOptions( \%opts,"i=s", "p=s","o=s",'d=s','e=s','v=i',"h!");
 my $usage = <<"USAGE";
        Program : $0
        Version : $VERSION
-       Contact : quan.guo\@majorbio.com
-       Lastest modify:2014-09-01
+       Contact : meng.luo\@majorbio.com
+       Lastest modify:2019-04-13
        Discription: run mblast
        Usage :perl $0 [options]
                 -i*	fasta		input fasta file     
